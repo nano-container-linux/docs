@@ -1,4 +1,9 @@
-# nano-container-linux
+---
+title: "Overview"
+weight: 10
+---
+
+# nano-container-linux {#nano-container-linux}
 
 A minimal container host — OCI initrd and PXE boot, a DNS daemon, an OpenPubKey agent.
 
@@ -6,16 +11,16 @@ Part of the **Firmware, boot & trust** family of the
 [pure-Go ecosystem](https://go-desktop.github.io/) — 7 modules,
 all `CGO_ENABLED=0`.
 
-## What is here
+## What is here {#what-is-here}
 
 This site is the organisation's reference index: what each module is, and where its
 API documentation lives. The API itself is generated from the source and served by
 [pkg.go.dev](https://pkg.go.dev/), which is always current with the released tags —
 duplicating it here would only create a second copy to go stale.
 
-- **[Modules](modules.md)** — every module in nano-container-linux, with its source and its reference.
+- **[Modules]({{< relref "modules.md" >}})** — every module in nano-container-linux, with its source and its reference.
 
-## What every module here is held to
+## What every module here is held to {#what-every-module-here-is-held-to}
 
 - `CGO_ENABLED=0`: no cgo, and no shelling out to a command-line tool in place of a
   library.
